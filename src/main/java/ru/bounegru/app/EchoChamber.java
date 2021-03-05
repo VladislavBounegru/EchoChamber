@@ -13,11 +13,10 @@ public class EchoChamber {
         String line;
         Scanner scanner = new Scanner(System.in);
         List<String> lines = new ArrayList<>();
-
+        
         while (!(line = scanner.nextLine()).equals("")) {
             lines.add(line);
         }
-
         for (String str: lines){
             System.out.println(str);
         }
